@@ -2,11 +2,11 @@
 
 namespace Admin\BaseWeb3014\Commons;
 
-class Heaper
+class Helper
 {
-    public static function debug($data)
-    {
-        echo "<pre>";
+    public static function debug($data) {
+        echo '<pre>';
+
         print_r($data);
 
         die;

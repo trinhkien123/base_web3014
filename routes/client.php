@@ -1,5 +1,5 @@
 <?php
 
-$router->get('/', function () {
-    echo 'trang chu';
-});
+use Admin\BaseWeb3014\Controllers\Client\HomeController;
+
+$router->get( '/', HomeController::class . '@index');

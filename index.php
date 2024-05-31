@@ -1,5 +1,5 @@
 <?php
-session_start();
+session_start(); 
 
 require 'vendor/autoload.php';
 
@@ -11,4 +11,4 @@ echo '<pre>';
 print_r($_SERVER['REQUEST_URI']);
 die;
 
-require_once __DIR__ . './rutes/index.php';
+require_once __DIR__ . './routes/index.php';
